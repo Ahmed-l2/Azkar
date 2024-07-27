@@ -1,0 +1,95 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: Zain;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+  margin: 0; /* Remove default body margin */
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid white; */
+  gap: 5rem;
+}
+
+.Card {
+  color: black;
+  background-color: antiquewhite;
+  font-size: 2em;
+  border-radius: .3em;
+  padding: 1rem;
+  transition-duration: 0.5s;
+}
+
+.Card:hover {
+  color: antiquewhite;
+  background-color: darkgrey;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+
+.Card:focus {
+  color: antiquewhite;
+  background-color: darkgrey;
+  transition-duration: 0.5s;
+}
+
+.zikrContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.azkarContainer h1 {
+  margin-top: 0;
+  color: antiquewhite;
+  font-size: 4rem;
+}
+
+.zikr {
+  color: #242424;
+  background-color: antiquewhite;
+  border-radius: .5rem;
+  padding: 0 0.3rem;
+  font-weight: bold;
+}
+
+.returnContainer {
+  text-align: right;
+  margin-top: -20px;
+  /* border: 1px solid wheat; */
+}
+
+.returnBtn {
+  color: antiquewhite;
+  margin-top: 0;
+}
+
+.returnBtn:hover {
+  cursor: pointer;
+}
+
+.extra {
+  border-top: 1px solid #24242433;
+}
+
+.extraCount {
+  margin: 0.4em 0;
+}
