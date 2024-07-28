@@ -246,7 +246,7 @@ function Azkar(props) {
                         <p>{zikr.text}</p>
                         {zikr.count && (
                         <div className="extra">
-                            <p className="extraCount">{zikr.count}</p>
+                            <p className="extraCount">[{zikr.count}]</p>
                         </div>
                         )}
                     </div>
